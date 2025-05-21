@@ -151,9 +151,9 @@ int main()
 			break;
 			
 			case 4:
-				printf("Saindo do sistema...");
-				return 0;
-				break;
+			printf("Saindo do sistema...");
+			return 0;
+			break;
 			
 			default:
 			printf("Essa opção não está disponível \n");
