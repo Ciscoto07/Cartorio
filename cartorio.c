@@ -127,7 +127,8 @@ int main()
 		printf("Escolha a opção desejada do menu:\n\n"); //\t seve para dar um certo espaço e o \n serve para pular linhas em textos
 		printf("\t1) Registrar usuários\n");
 		printf("\t2) Consultar usuários\n");
-		printf("\t3) Deletar usuários\n\n");
+		printf("\t3) Deletar usuários\n");
+		printf("\t4) Sair do sistema \n\n");
 		printf("Opções: ");//Final do menu
 		
 		scanf("%d", &opcao);//Armazenando as informações/escolha do usuário
@@ -148,6 +149,11 @@ int main()
 			case 3:
 			deletar(); //chama a função de deletar
 			break;
+			
+			case 4:
+				printf("Saindo do sistema...");
+				return 0;
+				break;
 			
 			default:
 			printf("Essa opção não está disponível \n");
